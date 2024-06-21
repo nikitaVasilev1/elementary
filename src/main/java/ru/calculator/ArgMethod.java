@@ -8,9 +8,9 @@ public class ArgMethod {
     public static void main(String[] args) {
         String name = "Java";
         int age = 6;
-        ArgMethod.hello(name, 6);
         ArgMethod.hello(name, age);
-        ArgMethod.hello("Java", age);
+        ArgMethod.hello(name, age);
+        ArgMethod.hello(name, age);
         ArgMethod.hello(name, age);
     }
 }
