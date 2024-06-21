@@ -15,5 +15,10 @@ public class Calculator {
         System.out.println(sixDiyTwo);
         System.out.println(fiveMinusTwo);
         System.out.println(fourTimeTwo);
+        int rezult3 = func1(50);
+    }
+
+    public static int func1(int x) {
+        return x;
     }
 }
