@@ -10,17 +10,12 @@ public class MathFunc {
         int y = 1 / x;
         return y;
     }
-    
-    public static void main(String[] args) {
-        int rezult1 = MathFunc.func1(3);
-        int rezult2 = MathFunc.func2(5);
-        int total = rezult1 + rezult2;
-        System.out.println(total);
-        int rezult3 = MathFunc.func1(100);
 
+    public static void main(String[] args) {
+        int result1 = MathFunc.func1(3);
+        int result2 = MathFunc.func2(5);
+        int total = result1 + result2;
+        System.out.println(total);
+        int result3 = MathFunc.func1(100);
     }
 }
-
-
-
-
