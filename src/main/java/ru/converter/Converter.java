@@ -22,5 +22,4 @@ public class Converter {
         boolean passedEuro = expectedEuro == outEuro;
         System.out.println("140 rubles are 1.4 euro. Test result: " + passedEuro);
     }
-
 }
