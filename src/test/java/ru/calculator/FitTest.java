@@ -11,7 +11,7 @@ class FitTest {
         double out = Fit.manWeight(in);
         assertThat(out).isEqualTo(expected, withPrecision(0.01));
     }
-    
+
     @Test
     void whenWoman170Then69() {
         short in = 170;

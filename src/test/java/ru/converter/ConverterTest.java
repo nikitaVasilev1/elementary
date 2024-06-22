@@ -15,7 +15,7 @@ class ConverterTest {
     }
 
     @Test
-    void WhenConvert200RblThen2Euro() {
+    void whenConvert200RblThen2Euro() {
         float in = 200;
         float expected = 2f;
         float out = Converter.rubleToEuro(in);
@@ -24,7 +24,7 @@ class ConverterTest {
     }
 
     @Test
-    void WhenConvert100RblThen1Dot1111Dollar() {
+    void whenConvert100RblThen1Dot1111Dollar() {
         float in = 100;
         float expected = 1.1111f;
         float out = Converter.rubleToDollar(in);
@@ -33,7 +33,7 @@ class ConverterTest {
     }
 
     @Test
-    void WhenConvert180RblThen2Dollar() {
+    void whenConvert180RblThen2Dollar() {
         float in = 180;
         float expected = 2f;
         float out = Converter.rubleToDollar(in);
