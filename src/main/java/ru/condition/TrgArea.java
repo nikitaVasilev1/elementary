@@ -11,4 +11,3 @@ public class TrgArea {
         System.out.println("area (2, 2, 2) = " + rsl);
     }
 }
-
