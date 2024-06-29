@@ -25,6 +25,6 @@ public class EndsWithTest {
         char[] word = {'H', 'e', 'l', 'l', 'o'};
         char[] post = {'d', 'l', 'o'};
         boolean result = EndsWith.endsWith(word, post);
-        assertThat(result).isTrue();
+        assertThat(result).isFalse();
     }
 }
