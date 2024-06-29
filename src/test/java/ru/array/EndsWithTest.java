@@ -23,7 +23,7 @@ public class EndsWithTest {
     @Test
     public void whenEndWithPrefixThenTrue2() {
         char[] word = {'H', 'e', 'l', 'l', 'o'};
-        char[] post = {'d','l', 'o'};
+        char[] post = {'d', 'l', 'o',};
         boolean result = EndsWith.endsWith(word, post);
         assertThat(result).isTrue();
     }
